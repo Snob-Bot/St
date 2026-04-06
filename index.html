@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MSRP Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+<aside class="sidebar">
+<h2>MSRP</h2>
+
+<button class="btn green" onclick="startSession()">Start Session</button>
+<button class="btn red" onclick="endSession()">End Session</button>
+
+<div id="status"></div>
+</aside>
+
+<main class="main">
+
+<div class="panel">
+<h3>Players</h3>
+<div id="players"></div>
+</div>
+
+<div class="panel">
+<h3>Logs</h3>
+<div id="logs"></div>
+</div>
+
+</main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
