@@ -12,7 +12,7 @@ document.getElementById('status').innerText=status.active?'Active':'Inactive'
 
 const players=await fetch('/.netlify/functions/players').then(r=>r.json())
 document.getElementById('players').innerHTML=
-players.map(p=>`<div>${p.username} - ${p.team}</div>`).join('')
+players.map(p=>`<div>${p.username} ${p.staff?'[STAFF]':''}</div>`).join('')
 
 const logs=await fetch('/.netlify/functions/logs').then(r=>r.json())
 document.getElementById('logs').innerHTML=
