@@ -1,0 +1,8 @@
+body{margin:0;background:#0b0f14;color:#e6edf3;font-family:Inter,sans-serif}
+.app{display:flex;height:100vh}
+.sidebar{width:240px;background:#11161c;padding:20px}
+.main{flex:1;padding:20px;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.panel{background:#11161c;padding:15px;border-radius:8px;border:1px solid #1f2933}
+.btn{width:100%;padding:10px;margin-bottom:10px;border:none;border-radius:6px;cursor:pointer}
+.green{background:#22c55e}
+.red{background:#ef4444;color:white}
